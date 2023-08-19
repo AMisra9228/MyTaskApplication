@@ -42,11 +42,14 @@ dependencies {
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
     implementation ("com.squareup.retrofit2:converter-scalars:2.9.0")
     implementation("com.squareup.okhttp3:logging-interceptor:4.9.1")
-    implementation ("com.google.code.gson:gson:2.8.8")
+    implementation ("com.google.code.gson:gson:2.8.9")
 
-    implementation ("androidx.room:room-runtime:2.4.3")
-    implementation ("androidx.room:room-ktx:2.4.3")
-    annotationProcessor ("androidx.room:room-compiler:2.4.3")
+    implementation ("androidx.room:room-runtime:2.5.2")
+    implementation ("androidx.room:room-ktx:2.5.2")
+    annotationProcessor ("androidx.room:room-compiler:2.5.2")
+
+    implementation ("com.airbnb.android:lottie:3.4.1")
+    implementation ("com.github.mayuce:LottieAlertDialog:1.1")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")

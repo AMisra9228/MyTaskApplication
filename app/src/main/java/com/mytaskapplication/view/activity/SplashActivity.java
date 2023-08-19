@@ -35,7 +35,7 @@ public class SplashActivity extends AppCompatActivity {
             for (Signature signature : info.signatures) {
                 MessageDigest messageDigest = MessageDigest.getInstance("SHA");
                 messageDigest.update(signature.toByteArray());
-                Log.e("KeyHash:", Base64.encodeToString(messageDigest.digest(), Base64.DEFAULT));
+                Log.e("KeyHash:-", Base64.encodeToString(messageDigest.digest(), Base64.DEFAULT));
             }
         } catch (PackageManager.NameNotFoundException | NoSuchAlgorithmException e) {
             e.printStackTrace();
